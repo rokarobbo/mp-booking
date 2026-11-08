@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   watch:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned: Playwright 1.58 browser deps don't install on Ubuntu 26
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
