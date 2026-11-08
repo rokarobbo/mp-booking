@@ -1,0 +1,13 @@
+{
+  "url": "https://tuboleto.cultura.pe/llaqta_machupicchu",
+  "dates": ["2027-01-01", "2027-01-02", "2027-01-03", "2027-01-04", "2027-01-05"],
+  "routes": [
+    {"circuit": "Circuito 2", "route": "2-A"},
+    {"circuit": "Circuito 2", "route": "2-B"}
+  ],
+  "release_canary": {"circuit": "Circuito 1", "route": "1-A"},
+  "preferred_window": ["08:00", "10:00"],
+  "repeat_alert_minutes": 30,
+  "heartbeat_hour_lima": 8,
+  "fail_alert_after": 3
+}
